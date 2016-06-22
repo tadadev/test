@@ -1,0 +1,96 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - ChimpKit (3.1.1)
+  - CreateSend (1.1.1)
+  - FirebaseAnalytics (3.2.0):
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.3)
+  - FirebaseInstanceID (1.0.6)
+  - Google/Analytics (3.0.3):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (3.0.3):
+    - FirebaseAnalytics (~> 3.2)
+  - GoogleAnalytics (3.14.0)
+  - GoogleConversionTracking (3.4.0)
+  - GoogleInterchangeUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.1)
+  - GoogleUtilities (1.3.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - MagicalRecord/Core+Logging (3.0.0.dev.1464801303)
+  - mailgun (1.0.3):
+    - AFNetworking (~> 1.1.0)
+  - Masonry (0.5.3)
+  - OMPromises (0.8.1):
+    - OMPromises/Core (= 0.8.1)
+  - OMPromises/Core (0.8.1)
+  - OMPromises/HTTP (0.8.1):
+    - OMPromises/Core
+  - PNChart (0.8):
+    - UICountingLabel (~> 1.0.0)
+  - UICountingLabel (1.0.0)
+
+DEPENDENCIES:
+  - ChimpKit
+  - CreateSend (~> 1.1.1)
+  - Google/Analytics
+  - GoogleConversionTracking
+  - MagicalRecord/Core+Logging (from `https://github.com/magicalpanda/MagicalRecord.git`,
+    branch `release/3.0`)
+  - mailgun (~> 1.0.3)
+  - Masonry (from `https://github.com/cloudkite/Masonry.git`, tag `v0.5.3`)
+  - OMPromises (from `https://github.com/b52/OMPromises.git`, branch `master`)
+  - OMPromises/HTTP (from `https://github.com/b52/OMPromises.git`, branch `master`)
+  - PNChart (from `https://github.com/kevinzhow/PNChart.git`, tag `0.8.1`)
+
+EXTERNAL SOURCES:
+  MagicalRecord:
+    :branch: release/3.0
+    :git: https://github.com/magicalpanda/MagicalRecord.git
+  Masonry:
+    :git: https://github.com/cloudkite/Masonry.git
+    :tag: v0.5.3
+  OMPromises:
+    :branch: master
+    :git: https://github.com/b52/OMPromises.git
+  PNChart:
+    :git: https://github.com/kevinzhow/PNChart.git
+    :tag: 0.8.1
+
+CHECKOUT OPTIONS:
+  MagicalRecord:
+    :commit: b1e621cf0557d5d1f245658ae9adb6004081bef6
+    :git: https://github.com/magicalpanda/MagicalRecord.git
+  Masonry:
+    :git: https://github.com/cloudkite/Masonry.git
+    :tag: v0.5.3
+  OMPromises:
+    :commit: 0424658f370adead7a2529473bdd978d370da75a
+    :git: https://github.com/b52/OMPromises.git
+  PNChart:
+    :git: https://github.com/kevinzhow/PNChart.git
+    :tag: 0.8.1
+
+SPEC CHECKSUMS:
+  AFNetworking: e6427e782b25a2289d909960df8ef41358b3277c
+  ChimpKit: d020126089544daa349397a91f1489a3f271b791
+  CreateSend: 4964af8747ef956c59d7f0c369099dc8ee3ec79f
+  FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863
+  FirebaseInstanceID: d014d574053a2fe84478f12f7bae96979e7051bb
+  Google: 813c467362eabc11385f5a5cc9ad0cb651a58f4e
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleConversionTracking: ca8c89abda2bd28bb6472b316eeb4ece9264e279
+  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
+  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
+  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  MagicalRecord: f0cb024b89b991ebb9cc1048f0a4b108e5f7ce74
+  mailgun: 17290deea4db24050dd03ca59cd7385d508904b3
+  Masonry: 52d38b04fb4978ad895d285ea5b2026bff1eec18
+  OMPromises: aa67585ad14d3cfbf8fbf5b339d4e7cbb97ad6ec
+  PNChart: 4db2d0f3a355e2481257f75a899295bb6776f0e1
+  UICountingLabel: 540feeca6bbb78be892c8ab75b6ad02313cb2b10
+
+COCOAPODS: 0.39.0

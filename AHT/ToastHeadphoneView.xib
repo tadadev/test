@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GT-Walsheim-Bold.otf">
+            <string>GTWalsheim-Bold</string>
+        </mutableArray>
+        <mutableArray key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToastHeadphoneView">
+            <connections>
+                <outlet property="descTextView" destination="FuO-8v-m4z" id="Tp9-ni-2sF"/>
+                <outlet property="fixLbl" destination="2Rn-RE-5ry" id="HsC-Ri-iCA"/>
+                <outlet property="headerLbl" destination="kg9-lj-nir" id="yff-I8-T8s"/>
+                <outlet property="view" destination="iN0-l3-epB" id="o7S-mC-buJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fix This" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Rn-RE-5ry">
+                    <rect key="frame" x="125" y="10" width="70" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="FT4-h8-dGd"/>
+                        <constraint firstAttribute="width" constant="70" id="mKc-6A-Rgl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Roboto-Regular"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Headphones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg9-lj-nir">
+                    <rect key="frame" x="0.0" y="41" width="320" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Y6S-xH-Nzo"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GTWalsheim-Bold" family="GT Walsheim" pointSize="48"/>
+                    <color key="textColor" red="0.24313725489999999" green="0.24313725489999999" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FuO-8v-m4z">
+                    <rect key="frame" x="15" y="75" width="290" height="90"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please insert headphones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E03-7c-zC7">
+                    <rect key="frame" x="0.0" y="194" width="320" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="X5g-4e-IUk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headphone" translatesAutoresizingMaskIntoConstraints="NO" id="8og-5n-Pdy">
+                    <rect key="frame" x="133" y="103" width="55" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="Tks-ae-V6i"/>
+                        <constraint firstAttribute="height" constant="54" id="f3i-Fl-SqJ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="8og-5n-Pdy" secondAttribute="centerX" id="17q-0x-2tP"/>
+                <constraint firstItem="E03-7c-zC7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7fO-eZ-msF"/>
+                <constraint firstItem="kg9-lj-nir" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="M75-ca-J2L"/>
+                <constraint firstItem="kg9-lj-nir" firstAttribute="top" secondItem="2Rn-RE-5ry" secondAttribute="bottom" constant="10" id="WoB-QC-8jW"/>
+                <constraint firstAttribute="trailing" secondItem="kg9-lj-nir" secondAttribute="trailing" id="XYG-6n-s0H"/>
+                <constraint firstAttribute="centerY" secondItem="8og-5n-Pdy" secondAttribute="centerY" id="dSd-gl-yJq"/>
+                <constraint firstAttribute="centerX" secondItem="2Rn-RE-5ry" secondAttribute="centerX" id="k1I-XQ-Jst"/>
+                <constraint firstAttribute="bottom" secondItem="E03-7c-zC7" secondAttribute="bottom" constant="45" id="nTe-Lp-LEm"/>
+                <constraint firstAttribute="trailing" secondItem="E03-7c-zC7" secondAttribute="trailing" id="naB-EQ-eX0"/>
+                <constraint firstItem="2Rn-RE-5ry" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="wrf-PF-ci1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="599" y="357"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="headphone" width="55" height="54"/>
+    </resources>
+</document>

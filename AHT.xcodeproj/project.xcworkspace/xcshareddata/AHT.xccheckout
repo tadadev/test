@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B543DD7D-B2AF-4D62-A246-2121477DCD5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AHT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE20D2B80788663243E22FF94D68143DED6A4314</key>
+		<string>https://bitbucket.org/tdemar09/audicus-3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AHT/AHT.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE20D2B80788663243E22FF94D68143DED6A4314</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/tdemar09/audicus-3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE20D2B80788663243E22FF94D68143DED6A4314</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE20D2B80788663243E22FF94D68143DED6A4314</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Master</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+../../../CreateSend/CreateSend/CSCampaignRecipient.h

@@ -1,0 +1,20 @@
+//
+//  AHT-Prefix.pch
+//  AHT
+//
+//  Created by Troy DeMar on 3/4/15.
+//  Copyright (c) 2015 Troy. All rights reserved.
+//
+
+#ifndef AHT_AHT_Prefix_pch
+#define AHT_AHT_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import <Masonry/Masonry.h>
+#import "Constants.h"
+#endif
